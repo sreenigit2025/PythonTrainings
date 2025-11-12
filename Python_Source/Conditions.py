@@ -59,3 +59,23 @@ elif option == 4:
     print(f"The quotient of a and b is: {result}")
 else:
     print("Invalid option selected.")
+
+
+name =["sreeni", "kumar", "python"]
+
+for n in name:
+    if n.startswith("s"):
+        print(f"{n} starts with s")
+    else:
+        print(f"{n} does not start with s")
+
+for n in name:
+    if n.startswith("s"):
+        continue    
+    print(f"{n} does not start with k")
+
+
+for n in name:
+    if n.startswith("s"):
+        break   
+    print(f"{n} does not start with k")
