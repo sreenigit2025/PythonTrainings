@@ -1,5 +1,5 @@
 # age validation function with type hinting and default argument
-def age_validation(age:int = 18) -> str:
+def age_validation(age:int = 18):
     if age < 0:
         return "Invalid age"
     elif age < 18:
