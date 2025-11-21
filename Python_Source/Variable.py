@@ -47,3 +47,5 @@ print(reversed_list)
 
 if "apple" in fruits:
     print("Yes, apple is in the list!")
+
+

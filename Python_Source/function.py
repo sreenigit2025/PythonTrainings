@@ -40,7 +40,8 @@ result = func1()
 print(f"The sum of default a and b is: {result}")
 print("***************")
 
-def age_validation(age:int = 18):
+# age validation function with type hinting and default argument
+def age_validation(age:int = 18) -> str:
     if age < 0:
         return "Invalid age"
     elif age < 18:
